@@ -1,0 +1,35 @@
+/* common shared styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: white;
+    padding: 21px 25px;
+
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* header related style */
+.header {
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 808px;
+    text-align: right;
+    padding: 216px 180px 166px 850px;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
