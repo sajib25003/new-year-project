@@ -7,19 +7,26 @@
     border-radius: 5px;
     background-color: white;
     padding: 21px 25px;
-
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
+    border: none;
+}
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* header related style */
-.header {
+.header-container {
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
     height: 808px;
     text-align: right;
-    padding: 216px 180px 166px 850px;
+}
+.header-container-item{
+    padding: 216px 230px 0 845px;
 }
 
 .header-title {
@@ -32,4 +39,36 @@
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* failure related style */
+.failure-container {
+    display: flex;
+    gap: 134px;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.failure-text {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.failure-item {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-type: "✔️ ";
+    padding-bottom: 8px;
 }
