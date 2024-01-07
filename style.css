@@ -18,6 +18,13 @@ main {
     margin-right: 200px;
 }
 
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
 /* header related style */
 .header-container {
     background-image: url(images/banner/banner3.png);
@@ -25,7 +32,8 @@ main {
     height: 808px;
     text-align: right;
 }
-.header-container-item{
+
+.header-container-item {
     padding: 216px 230px 0 845px;
 }
 
@@ -44,18 +52,12 @@ main {
 }
 
 /* failure related style */
-.failure-container {
+.section-container {
     display: flex;
     gap: 134px;
     align-items: center;
     margin-top: 140px;
-}
-
-.failure-title {
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
-    padding-bottom: 24px;
+    margin-bottom: 130px;
 }
 
 .failure-text {
@@ -71,4 +73,64 @@ main {
     font-weight: 400;
     list-style-type: "✔️ ";
     padding-bottom: 8px;
+}
+
+/* Plan related styles */
+.plan-container-title {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-items {
+    align-items: center;
+}
+
+#plan-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.plan-image {
+    width: 90px;
+    height: 90px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.plan-text {
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+/* Banner related styles */
+.banner-section {
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.banner-title{
+    padding: 20px 610px 0 64px;
+}
+.banner-text {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
